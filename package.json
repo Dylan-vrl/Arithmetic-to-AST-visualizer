@@ -1,0 +1,19 @@
+{
+  "name": "arithmetic_ast_visualizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --outfile=dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@viz-js/viz": "^3.2.3",
+    "mathjs": "^12.1.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.19.7"
+  }
+}
